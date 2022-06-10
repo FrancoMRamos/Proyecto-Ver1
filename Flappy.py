@@ -38,7 +38,7 @@ class Bird(pygame.sprite.Sprite):
 
     def update(self):
 
-        # Manejamos la animación, este será 
+        # Manejamos la animación, este será un bucle de 3 sprites que cambiará de sprite cada 5 frames.
         self.counter += 1
         flap_cooldown = 5
 
